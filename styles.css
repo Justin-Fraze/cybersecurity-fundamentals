@@ -47,22 +47,21 @@ border-radius: 10px;
 box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
-/* This controls the standard link color */
+/* 1. The main link color */
 a {
-    color: #00FFFF;
-    text-decoration: underline; /* Keeps it obvious it's a link */
-    font-weight: bold;
+    color: #00FFFF; /* Cyan - stands out great on dark blue */
+    text-decoration: underline;
+    transition: color 0.2s ease; /* Makes the color change smooth */
 }
 
-/* This controls the color when someone hovers their mouse over it */
+/* 2. When the user hovers their mouse */
 a:hover {
-    color: #F0E68C;
+    color: #FFFFFF; /* Turns white when hovered */
     text-decoration: none;
 }
 
-/* This controls the color AFTER a link has been clicked */
+/* 3. After the link has been clicked */
 a:visited {
-    color: #98FB98;
+    color: #D1D1D1; /* Light gray so they know they've been there */
 }
-
 
