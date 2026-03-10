@@ -72,7 +72,7 @@ a:visited {
 }
 
 .centered-footer-img {
-    width: 100%
+    width: 100%;
     max-width: 500px;        /* Keeps it from touching the edges */
     height: auto;          /* Maintains the image's proportions */
     border-radius: 12px;   /* Optional: gives it nice rounded corners */
