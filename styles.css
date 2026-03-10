@@ -24,11 +24,13 @@ color: #38bdf8;
 
 h1 {
 padding: 20px;
+margin-top: 0;
 }
 
 p {
 padding: 0 20px;
 max-width: 800px;
+line-height: 1.6;
 }
 
 main {
