@@ -46,3 +46,23 @@ margin-bottom: 25px;
 border-radius: 10px;
 box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
+
+/* This controls the standard link color */
+a {
+    color: #00FFFF;
+    text-decoration: underline; /* Keeps it obvious it's a link */
+    font-weight: bold;
+}
+
+/* This controls the color when someone hovers their mouse over it */
+a:hover {
+    color: #F0E68C;
+    text-decoration: none;
+}
+
+/* This controls the color AFTER a link has been clicked */
+a:visited {
+    color: #98FB98;
+}
+
+
