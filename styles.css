@@ -47,21 +47,33 @@ border-radius: 10px;
 box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
-/* 1. The main link color */
+/* The main link color */
 a {
     color: #00FFFF; /* Cyan - stands out great on dark blue */
     text-decoration: underline;
     transition: color 0.2s ease; /* Makes the color change smooth */
 }
 
-/* 2. When the user hovers their mouse */
+/* When the user hovers their mouse */
 a:hover {
     color: #FFFFFF; /* Turns white when hovered */
     text-decoration: none;
 }
 
-/* 3. After the link has been clicked */
+/* After the link has been clicked */
 a:visited {
     color: #D1D1D1; /* Light gray so they know they've been there */
 }
 
+.footer-image-container {
+    text-align: center;    /* This centers the image horizontally */
+    padding: 40px 0;       /* Adds some "breathing room" at the bottom */
+    width: 100%;
+}
+
+.centered-footer-img {
+    max-width: 80%;        /* Keeps it from touching the edges */
+    height: auto;          /* Maintains the image's proportions */
+    border-radius: 12px;   /* Optional: gives it nice rounded corners */
+    border: 2px solid #00FFFF; /* Optional: adds a cyan border to match your links */
+}
